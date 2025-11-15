@@ -1,4 +1,4 @@
-/* main.js — interactions for your profile page */
+/* index.js — interactions for your profile page */
 
 /* ===== helpers ===== */
 const $ = (s, el = document) => el.querySelector(s);
@@ -6,7 +6,7 @@ const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 const prefersReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* quick sanity check in Console */
-console.log('main.js loaded');
+console.log('index.js loaded');
 
 /* ===== cache DOM ===== */
 const header = $('.top-header');
@@ -27,6 +27,7 @@ function scrollToTarget(el) {
   const opts = { top: Math.max(top, 0), behavior: prefersReduced ? 'auto' : 'smooth' };
   window.scrollTo(opts);
 }
+
 
 navLinks.forEach(a => {
   a.addEventListener('click', e => {
@@ -58,7 +59,6 @@ const spy = new IntersectionObserver(
     lastActive = id;
     navLinks.forEach(a => a.classList.remove('active'));
     linkById[id]?.classList.add('active');
-  },
   {
     root: null,
     rootMargin: `-${(header?.offsetHeight || 0) + 24}px 0px -60% 0px`,
@@ -67,6 +67,7 @@ const spy = new IntersectionObserver(
 );
 sections.forEach(s => spy.observe(s.el));
 
+//m1
 /* ===== <details class="item"> open/close animation ===== */
 const detailsEls = $$('details.item');
 function animateDetails(el, open) {
@@ -84,7 +85,7 @@ function animateDetails(el, open) {
 
   requestAnimationFrame(() => {
     el.open = open;
-    content. animate(
+    content.animate(
       [{ height: `${start}px` }, { height: `${end}px` }],
       { duration: 240, easing: 'cubic-bezier(.2,.8,.2,1)' }
     ).onfinish = () => {
@@ -92,8 +93,7 @@ function animateDetails(el, open) {
       content.style.overflow = '';
     };
   });
-}
-detailsEls.forEach(d => {
+}lsEls.forEach(d => {
   d.addEventListener('toggle', e => {
     if (!e.isTrusted) return;
     e.preventDefault();
@@ -105,7 +105,7 @@ detailsEls.forEach(d => {
 function updateToTop() {
   const show = window.scrollY > 300;
   if (!toTop) return;
-  toTop.style.opacity = show? '1' : '0';
+  toTop.style.opacity = show ? '1' : '0';
   toTop.style.pointerEvents = show ? 'auto' : 'none';
 }
 updateToTop();
