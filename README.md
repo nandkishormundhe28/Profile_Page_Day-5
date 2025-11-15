@@ -35,6 +35,7 @@ This webpage serves as a **learning diary and showcase**, updated after each ses
 
 ---
 
+
 ## 📂 Project Structure
 project-root/
 ├── index.html # Main webpage structure
