@@ -36,11 +36,12 @@ This webpage serves as a **learning diary and showcase**, updated after each ses
 ---
 
 
-## 📂 Project Structure
 project-root/
-├── index.html # Main webpage structure
-├── styles.css # Theme, layout, and animation styling
-└── README.md # Project overview and documentation
+├── index.html      # Main page structure
+├── styles.css      # Aurora theme, layout, and responsive styling
+├── main.js        # Interactive behavior and animations
+└── README.md       # Project overview and documentation
+
 
 
 ---
