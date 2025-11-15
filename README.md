@@ -34,7 +34,9 @@ up-to-date automatically.
 HTML5 – Semantic and accessible structure
 
 CSS3 – Flexbox, Grid, Custom properties, and Keyframe animations
+
 JavaScript (ES6) – DOM interactions, smooth scrolling, scroll spying, and animations
+
 ---
 
 🧠 Learning Focus
