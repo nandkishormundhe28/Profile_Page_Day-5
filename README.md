@@ -1,4 +1,4 @@
-# 🚀 Nandkishor Mundhe - Personal Portfolio Website
+# 🚀 Nandkishor Mundhe - Personal Profile Page
 
 > A modern, interactive personal profile website built with **HTML & CSS only**. Designed to showcase your projects, skills, and professional journey as a **Full-Stack Developer**.
 
