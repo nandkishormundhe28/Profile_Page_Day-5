@@ -48,6 +48,7 @@ const linkById = navLinks.reduce((m, a) => {
   return m;
 }, {});
 
+
 let lastActive = null;
 const spy = new IntersectionObserver(
   entries => {
