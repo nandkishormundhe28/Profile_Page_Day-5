@@ -28,7 +28,7 @@ function scrollToTarget(el) {
   window.scrollTo(opts);
 }
 
-/* ===== */
+
 navLinks.forEach(a => {
   a.addEventListener('click', e => {
     const href = a.getAttribute('href') || '';
@@ -68,6 +68,7 @@ const spy = new IntersectionObserver(
 );
 sections.forEach(s => spy.observe(s.el));
 
+//m1
 /* ===== <details class="item"> open/close animation ===== */
 const detailsEls = $$('details.item');
 function animateDetails(el, open) {
