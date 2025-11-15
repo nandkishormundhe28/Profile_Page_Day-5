@@ -92,8 +92,7 @@ function animateDetails(el, open) {
       content.style.overflow = '';
     };
   });
-}
-detailsEls.forEach(d => {
+}lsEls.forEach(d => {
   d.addEventListener('toggle', e => {
     if (!e.isTrusted) return;
     e.preventDefault();
