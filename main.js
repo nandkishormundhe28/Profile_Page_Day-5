@@ -84,7 +84,7 @@ function animateDetails(el, open) {
 
   requestAnimationFrame(() => {
     el.open = open;
-    content.animate(
+    content. animate(
       [{ height: `${start}px` }, { height: `${end}px` }],
       { duration: 240, easing: 'cubic-bezier(.2,.8,.2,1)' }
     ).onfinish = () => {
@@ -105,7 +105,7 @@ detailsEls.forEach(d => {
 function updateToTop() {
   const show = window.scrollY > 300;
   if (!toTop) return;
-  toTop.style.opacity = show ? '1' : '0';
+  toTop.style.opacity = show? '1' : '0';
   toTop.style.pointerEvents = show ? 'auto' : 'none';
 }
 updateToTop();
