@@ -8,13 +8,24 @@ Designed to showcase your projects, skills, and professional journey as a Full-S
 
 ---
 
-## ✨ Features
+✨ Features
 
-- 🎨 **Modern Aurora Background** — A pure CSS, gradient-animated background with soft lighting effects.  
-- ⚡ **Responsive Design** — Works smoothly across desktops, tablets, and mobile screens.  
-- 💼 **Expandable Sections** — Projects, certifications, and experience panels open interactively for easy viewing.  
-- 🧠 **Minimal Yet Elegant** — Built entirely with semantic HTML and clean, maintainable CSS.  
-- 🔄 **Regular Updates** — The profile evolves after every major learning milestone or project addition.
+🎨 Modern Aurora Background — Pure CSS gradient animations with soft aurora-style motion.
+
+⚡ Responsive Design — Adapts beautifully across desktop, tablet, and mobile screens.
+
+💼 Expandable Sections — Smooth animations for projects, certifications, and experience using <details> and <summary>.
+
+🧠 Minimal Yet Elegant — Lightweight, semantic, and accessible codebase.
+
+🧭 Dynamic Navigation — Smooth scrolling, active-link highlighting, and section tracking via JavaScript.
+
+🔝 Back to Top Button — Subtle fade-in and smooth-scroll-to-top functionality.
+
+🔄 Auto-Updating Footer Year — Keeps your copyright
+up-to-date automatically.
+
+🧩 Motion Awareness — Respects system settings for reduced motion for accessibility.
 
 ---
 
