@@ -59,7 +59,6 @@ const spy = new IntersectionObserver(
     lastActive = id;
     navLinks.forEach(a => a.classList.remove('active'));
     linkById[id]?.classList.add('active');
-  },
   {
     root: null,
     rootMargin: `-${(header?.offsetHeight || 0) + 24}px 0px -60% 0px`,
