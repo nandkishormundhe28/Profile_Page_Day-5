@@ -6,7 +6,7 @@ const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 const prefersReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* quick sanity check in Console */
-console.log('index.js loaded');
+console.log('main.js loaded');
 
 /* ===== cache DOM ===== */
 const header = $('.top-header');
