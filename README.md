@@ -1,6 +1,7 @@
 # 🚀 Nandkishor Mundhe - Personal Profile Page
 
-> A modern, interactive personal profile website built with **HTML & CSS only**. Designed to showcase your projects, skills, and professional journey as a **Full-Stack Developer**.
+A modern, interactive personal profile website built with HTML, CSS, and JavaScript.
+Designed to showcase your projects, skills, and professional journey as a Full-Stack Developer.
 
 ![Badge](https://img.shields.io/badge/HTML-5-orange)
 ![Badge](https://img.shields.io/badge/CSS-3-blue)
