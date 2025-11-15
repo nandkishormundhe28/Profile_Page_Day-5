@@ -5,6 +5,7 @@ Designed to showcase your projects, skills, and professional journey as a Full-S
 
 ![Badge](https://img.shields.io/badge/HTML-5-orange)
 ![Badge](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 
 ---
 
