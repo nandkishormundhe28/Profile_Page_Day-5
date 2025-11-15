@@ -28,6 +28,7 @@ function scrollToTarget(el) {
   window.scrollTo(opts);
 }
 
+/* ===== */
 navLinks.forEach(a => {
   a.addEventListener('click', e => {
     const href = a.getAttribute('href') || '';
