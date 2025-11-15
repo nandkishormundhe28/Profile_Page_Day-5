@@ -1,4 +1,4 @@
-/* index.js — interactions for your profile page */
+/* main.js — interactions for your profile page */
 
 /* ===== helpers ===== */
 const $ = (s, el = document) => el.querySelector(s);
