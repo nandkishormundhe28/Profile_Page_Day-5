@@ -29,21 +29,26 @@ up-to-date automatically.
 
 ---
 
-## 🧩 Technologies Used
+🧩 Technologies Used
 
-- **HTML5** – Semantic and accessible markup  
-- **CSS3** – Custom properties, flexbox, grid, and keyframe animations  
-- **No JavaScript** – All interactivity achieved with `<details>` and `<summary>` elements
+HTML5 – Semantic and accessible structure
 
+CSS3 – Flexbox, Grid, Custom properties, and Keyframe animations
+
+JavaScript (ES6) – DOM interactions, smooth scrolling, scroll spying, and animations
 ---
 
-## 🧠 Learning Focus
+🧠 Learning Focus
 
-This webpage serves as a **learning diary and showcase**, updated after each session to reflect:
-- New technical skills (languages, frameworks, or tools)
-- Fresh projects or mini-apps
-- UI/UX and design improvements
-- Portfolio enhancement and code refactoring experience
+This profile webpage doubles as a learning journal and live showcase, updated regularly to reflect:
+
+New technologies or frameworks learned
+
+Added personal or professional projects
+
+Improved UX/UI techniques
+
+Code refactoring and responsive design best practices
 
 ---
 
