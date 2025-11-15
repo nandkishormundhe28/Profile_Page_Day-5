@@ -78,7 +78,7 @@ project-root/
 
 Open index.html in any modern web browser.
 
-Link:- http://127.0.0.1:5500/Profile_Page_Day-5/index.html
+Link:- https://nandkishormundhe28.github.io/Profile_Page_Day-5/
 
 Explore your personal sections, projects, and background animations live!
 
